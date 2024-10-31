@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E36877B2CD3813000AB7EEA /* OpenAPIRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 6E36877A2CD3813000AB7EEA /* OpenAPIRuntime */; };
+		6E36877D2CD3813000AB7EEA /* OpenAPIURLSession in Frameworks */ = {isa = PBXBuildFile; productRef = 6E36877C2CD3813000AB7EEA /* OpenAPIURLSession */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E3687362CD36C6C00AB7EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E36871C2CD36C6B00AB7EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E3687232CD36C6B00AB7EEA;
+			remoteInfo = "swift-openapi-sample";
+		};
+		6E3687402CD36C6C00AB7EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E36871C2CD36C6B00AB7EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E3687232CD36C6B00AB7EEA;
+			remoteInfo = "swift-openapi-sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E3687242CD36C6B00AB7EEA /* swift-openapi-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-openapi-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3687352CD36C6C00AB7EEA /* swift-openapi-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-openapi-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E36873F2CD36C6C00AB7EEA /* swift-openapi-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-openapi-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6E3687262CD36C6B00AB7EEA /* swift-openapi-sample */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "swift-openapi-sample";
+			sourceTree = "<group>";
+		};
+		6E3687382CD36C6C00AB7EEA /* swift-openapi-sampleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "swift-openapi-sampleTests";
+			sourceTree = "<group>";
+		};
+		6E3687422CD36C6C00AB7EEA /* swift-openapi-sampleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "swift-openapi-sampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E3687212CD36C6B00AB7EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E36877D2CD3813000AB7EEA /* OpenAPIURLSession in Frameworks */,
+				6E36877B2CD3813000AB7EEA /* OpenAPIRuntime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3687322CD36C6C00AB7EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E36873C2CD36C6C00AB7EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E36871B2CD36C6B00AB7EEA = {
+			isa = PBXGroup;
+			children = (
+				6E3687262CD36C6B00AB7EEA /* swift-openapi-sample */,
+				6E3687382CD36C6C00AB7EEA /* swift-openapi-sampleTests */,
+				6E3687422CD36C6C00AB7EEA /* swift-openapi-sampleUITests */,
+				6E3687792CD3813000AB7EEA /* Frameworks */,
+				6E3687252CD36C6B00AB7EEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E3687252CD36C6B00AB7EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E3687242CD36C6B00AB7EEA /* swift-openapi-sample.app */,
+				6E3687352CD36C6C00AB7EEA /* swift-openapi-sampleTests.xctest */,
+				6E36873F2CD36C6C00AB7EEA /* swift-openapi-sampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E3687792CD3813000AB7EEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E3687232CD36C6B00AB7EEA /* swift-openapi-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3687492CD36C6C00AB7EEA /* Build configuration list for PBXNativeTarget "swift-openapi-sample" */;
+			buildPhases = (
+				6E3687202CD36C6B00AB7EEA /* Sources */,
+				6E3687212CD36C6B00AB7EEA /* Frameworks */,
+				6E3687222CD36C6B00AB7EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3687732CD37CD100AB7EEA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6E3687262CD36C6B00AB7EEA /* swift-openapi-sample */,
+			);
+			name = "swift-openapi-sample";
+			packageProductDependencies = (
+				6E36877A2CD3813000AB7EEA /* OpenAPIRuntime */,
+				6E36877C2CD3813000AB7EEA /* OpenAPIURLSession */,
+			);
+			productName = "swift-openapi-sample";
+			productReference = 6E3687242CD36C6B00AB7EEA /* swift-openapi-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E3687342CD36C6C00AB7EEA /* swift-openapi-sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E36874C2CD36C6C00AB7EEA /* Build configuration list for PBXNativeTarget "swift-openapi-sampleTests" */;
+			buildPhases = (
+				6E3687312CD36C6C00AB7EEA /* Sources */,
+				6E3687322CD36C6C00AB7EEA /* Frameworks */,
+				6E3687332CD36C6C00AB7EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3687372CD36C6C00AB7EEA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6E3687382CD36C6C00AB7EEA /* swift-openapi-sampleTests */,
+			);
+			name = "swift-openapi-sampleTests";
+			packageProductDependencies = (
+			);
+			productName = "swift-openapi-sampleTests";
+			productReference = 6E3687352CD36C6C00AB7EEA /* swift-openapi-sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E36873E2CD36C6C00AB7EEA /* swift-openapi-sampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E36874F2CD36C6C00AB7EEA /* Build configuration list for PBXNativeTarget "swift-openapi-sampleUITests" */;
+			buildPhases = (
+				6E36873B2CD36C6C00AB7EEA /* Sources */,
+				6E36873C2CD36C6C00AB7EEA /* Frameworks */,
+				6E36873D2CD36C6C00AB7EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3687412CD36C6C00AB7EEA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6E3687422CD36C6C00AB7EEA /* swift-openapi-sampleUITests */,
+			);
+			name = "swift-openapi-sampleUITests";
+			packageProductDependencies = (
+			);
+			productName = "swift-openapi-sampleUITests";
+			productReference = 6E36873F2CD36C6C00AB7EEA /* swift-openapi-sampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E36871C2CD36C6B00AB7EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					6E3687232CD36C6B00AB7EEA = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					6E3687342CD36C6C00AB7EEA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 6E3687232CD36C6B00AB7EEA;
+					};
+					6E36873E2CD36C6C00AB7EEA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 6E3687232CD36C6B00AB7EEA;
+					};
+				};
+			};
+			buildConfigurationList = 6E36871F2CD36C6B00AB7EEA /* Build configuration list for PBXProject "swift-openapi-sample" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E36871B2CD36C6B00AB7EEA;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6E3687522CD36CBC00AB7EEA /* XCRemoteSwiftPackageReference "swift-openapi-generator" */,
+				6E3687532CD36CE500AB7EEA /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */,
+				6E3687542CD36D0100AB7EEA /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6E3687252CD36C6B00AB7EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E3687232CD36C6B00AB7EEA /* swift-openapi-sample */,
+				6E3687342CD36C6C00AB7EEA /* swift-openapi-sampleTests */,
+				6E36873E2CD36C6C00AB7EEA /* swift-openapi-sampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E3687222CD36C6B00AB7EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3687332CD36C6C00AB7EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E36873D2CD36C6C00AB7EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E3687202CD36C6B00AB7EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3687312CD36C6C00AB7EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E36873B2CD36C6C00AB7EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E3687372CD36C6C00AB7EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E3687232CD36C6B00AB7EEA /* swift-openapi-sample */;
+			targetProxy = 6E3687362CD36C6C00AB7EEA /* PBXContainerItemProxy */;
+		};
+		6E3687412CD36C6C00AB7EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E3687232CD36C6B00AB7EEA /* swift-openapi-sample */;
+			targetProxy = 6E3687402CD36C6C00AB7EEA /* PBXContainerItemProxy */;
+		};
+		6E3687732CD37CD100AB7EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 6E3687722CD37CD100AB7EEA /* OpenAPIGenerator */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E3687472CD36C6C00AB7EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E3687482CD36C6C00AB7EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6E36874A2CD36C6C00AB7EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swift-openapi-sample/swift_openapi_sample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swift-openapi-sample/Preview Content\"";
+				DEVELOPMENT_TEAM = E3RH48CSLN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.use.example.swift-openapi-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		6E36874B2CD36C6C00AB7EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swift-openapi-sample/swift_openapi_sample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swift-openapi-sample/Preview Content\"";
+				DEVELOPMENT_TEAM = E3RH48CSLN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.use.example.swift-openapi-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		6E36874D2CD36C6C00AB7EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E3RH48CSLN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.use.example.swift-openapi-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-openapi-sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swift-openapi-sample";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		6E36874E2CD36C6C00AB7EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E3RH48CSLN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.use.example.swift-openapi-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-openapi-sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swift-openapi-sample";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		6E3687502CD36C6C00AB7EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E3RH48CSLN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.use.example.swift-openapi-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "swift-openapi-sample";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		6E3687512CD36C6C00AB7EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E3RH48CSLN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.use.example.swift-openapi-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "swift-openapi-sample";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E36871F2CD36C6B00AB7EEA /* Build configuration list for PBXProject "swift-openapi-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3687472CD36C6C00AB7EEA /* Debug */,
+				6E3687482CD36C6C00AB7EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3687492CD36C6C00AB7EEA /* Build configuration list for PBXNativeTarget "swift-openapi-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E36874A2CD36C6C00AB7EEA /* Debug */,
+				6E36874B2CD36C6C00AB7EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E36874C2CD36C6C00AB7EEA /* Build configuration list for PBXNativeTarget "swift-openapi-sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E36874D2CD36C6C00AB7EEA /* Debug */,
+				6E36874E2CD36C6C00AB7EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E36874F2CD36C6C00AB7EEA /* Build configuration list for PBXNativeTarget "swift-openapi-sampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3687502CD36C6C00AB7EEA /* Debug */,
+				6E3687512CD36C6C00AB7EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6E3687522CD36CBC00AB7EEA /* XCRemoteSwiftPackageReference "swift-openapi-generator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-openapi-generator.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+		6E3687532CD36CE500AB7EEA /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-openapi-runtime.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+		6E3687542CD36D0100AB7EEA /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-openapi-urlsession.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6E3687722CD37CD100AB7EEA /* OpenAPIGenerator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E3687522CD36CBC00AB7EEA /* XCRemoteSwiftPackageReference "swift-openapi-generator" */;
+			productName = "plugin:OpenAPIGenerator";
+		};
+		6E36877A2CD3813000AB7EEA /* OpenAPIRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E3687532CD36CE500AB7EEA /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */;
+			productName = OpenAPIRuntime;
+		};
+		6E36877C2CD3813000AB7EEA /* OpenAPIURLSession */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E3687542CD36D0100AB7EEA /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */;
+			productName = OpenAPIURLSession;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6E36871C2CD36C6B00AB7EEA /* Project object */;
+}
