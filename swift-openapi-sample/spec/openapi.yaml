@@ -1,19 +1,17 @@
 openapi: '3.1.0'
 info:
-  title: GreetingService
+  title: API for searching github repositories
   version: 1.0.0
 servers:
-  - url: https://example.com/api
-    description: Example service deployment.
+  - url: https://api.github.com
 paths:
-  /greet:
+  /search/repositories:
     get:
-      operationId: getGreeting
+      operationId: searchRepositories
       parameters:
-        - name: name
-          required: false
+        - name: q
           in: query
-          description: The name used in the returned greeting.
+          required: true
           schema:
             type: string
       responses:
@@ -22,15 +20,58 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Greeting'
+                $ref: '#/components/schemas/Repositories'
 components:
   schemas:
-    Greeting:
+    Repositories:
       type: object
-      description: A value with the greeting contents.
-      properties:
-        message:
-          type: string
-          description: The string representation of the greeting.
+      description: A value with the repositories contents.
       required:
-        - message
+        - total_count
+        - items
+      properties:
+        total_count:
+          type: integer
+        items:
+          type: array
+          items:
+            type: object
+            required:
+              - id
+              - name
+              - full_name
+              - language
+              - stargazers_count
+              - watchers_count
+              - forks_count
+              - open_issues_count
+              - owner
+            properties:
+              id:
+                type: integer
+              name:
+                type: string
+              full_name:
+                type: string
+              language:
+                type: string
+              stargazers_count:
+                type: integer
+              watchers_count:
+                type: integer
+              forks_count:
+                type: integer
+              open_issues_count:
+                type: integer
+              description:
+                type: string
+              owner:
+                type: object
+                required:
+                  - avatar_url
+                  - login
+                properties:
+                  avatar_url:
+                    type: string
+                  login:
+                    type: string
