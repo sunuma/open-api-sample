@@ -217,6 +217,7 @@
 				6E3687522CD36CBC00AB7EEA /* XCRemoteSwiftPackageReference "swift-openapi-generator" */,
 				6E3687532CD36CE500AB7EEA /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */,
 				6E3687542CD36D0100AB7EEA /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */,
+				6E078EBA2CE22C010052136D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6E3687252CD36C6B00AB7EEA /* Products */;
@@ -620,6 +621,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		6E078EBA2CE22C010052136D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.15.2;
+			};
+		};
 		6E3687522CD36CBC00AB7EEA /* XCRemoteSwiftPackageReference "swift-openapi-generator" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-openapi-generator.git";
