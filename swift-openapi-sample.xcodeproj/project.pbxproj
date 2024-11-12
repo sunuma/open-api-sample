@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6E36877B2CD3813000AB7EEA /* OpenAPIRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 6E36877A2CD3813000AB7EEA /* OpenAPIRuntime */; };
 		6E36877D2CD3813000AB7EEA /* OpenAPIURLSession in Frameworks */ = {isa = PBXBuildFile; productRef = 6E36877C2CD3813000AB7EEA /* OpenAPIURLSession */; };
+		6E4247672CE32DDD00742F1C /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 6E4247662CE32DDD00742F1C /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 			files = (
 				6E36877D2CD3813000AB7EEA /* OpenAPIURLSession in Frameworks */,
 				6E36877B2CD3813000AB7EEA /* OpenAPIRuntime in Frameworks */,
+				6E4247672CE32DDD00742F1C /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +132,7 @@
 			packageProductDependencies = (
 				6E36877A2CD3813000AB7EEA /* OpenAPIRuntime */,
 				6E36877C2CD3813000AB7EEA /* OpenAPIURLSession */,
+				6E4247662CE32DDD00742F1C /* ComposableArchitecture */,
 			);
 			productName = "swift-openapi-sample";
 			productReference = 6E3687242CD36C6B00AB7EEA /* swift-openapi-sample.app */;
@@ -670,6 +673,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6E3687542CD36D0100AB7EEA /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */;
 			productName = OpenAPIURLSession;
+		};
+		6E4247662CE32DDD00742F1C /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E078EBA2CE22C010052136D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
